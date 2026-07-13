@@ -1,0 +1,23 @@
+h1{
+    background-color: rgb(113, 72, 167);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+h2{
+    background-color: rgb(79, 136, 162);
+    font-size: 30px;
+}
+
+ul{
+    background-color: rgb(162, 140, 79);
+    font-size: 20px;
+}
+
+ol li{
+    background-color: rgb(162, 79, 79);
+    font-size: 0.5em;
+
+}
