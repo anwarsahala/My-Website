@@ -1,0 +1,39 @@
+*{margin: 0; 
+padding: 0; 
+box-sizing:border-box;
+background-color: #000;
+}
+
+.container{
+    padding: 20px;
+    position: relative;
+}
+
+.box{
+    width: 150px;
+    height: 100px;
+    background-color: #9a0404;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    position:absolute;
+}
+
+@keyframes animate{
+    from{
+        background-color: #9a0404;
+        left: 10px;
+        top:10px
+    
+    }
+    
+    to{
+        background-color: #3ebb03;
+        top: 10px;
+        left: 900px;
+    }
+}
