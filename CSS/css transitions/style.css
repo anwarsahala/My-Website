@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: #fbb400;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.box:hover{
+    background-color: #50b909;
+    height: 300px;
+    width: 250px;
+}
